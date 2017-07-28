@@ -1,6 +1,6 @@
 plugin:
-    name: 'awebsome.privateplugins::lang.plugin.name'
-    description: 'awebsome.privateplugins::lang.plugin.description'
+    name: 'Private Plugins'
+    description: 'Download and Install oc-plugins from a remote Repository Git. - Beta'
     author: LucasZdv
     icon: oc-icon-puzzle-piece
     homepage: 'https://awebsome.me'
