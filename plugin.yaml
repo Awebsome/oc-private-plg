@@ -1,0 +1,6 @@
+plugin:
+    name: 'awebsome.privateplugins::lang.plugin.name'
+    description: 'awebsome.privateplugins::lang.plugin.description'
+    author: LucasZdv
+    icon: oc-icon-puzzle-piece
+    homepage: 'https://awebsome.me'

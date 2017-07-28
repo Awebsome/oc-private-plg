@@ -1,0 +1,24 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: true
+    code:
+        label: code
+    repository:
+        label: repository
+    private:
+        label: Private
+        type: switch
+    repo_url:
+        label: Repo URL
+        sortable: false
+#    vendor:
+#        label: vendor
+#        sortable: false
+#    name:
+#        label: name
+#        sortable: false

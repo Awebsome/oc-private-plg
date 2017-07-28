@@ -1,0 +1,55 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    id:
+        label: id
+        cssClass: hide
+    code:
+        label: Plugin code
+        span: left
+        type: text
+        trigger:
+            action: enable
+            field: id
+            condition: value[]
+tabs:
+    fields:
+        repository:
+            tab: Repository
+            label: Repository Provider
+            type: dropdown
+            span: storm
+            cssClass: 'col-sm-12 col-md-3'
+            options:
+                github: GitHub
+        repo_name:
+            tab: Repository
+            label: Name
+            placeholder: 'oc-plugin-name'
+            span: storm
+            cssClass: 'col-sm-12 col-md-3'
+        private:
+            tab: Repository
+            label: Login
+            comment: 'Use user and password for login'
+            type: switch
+            span: right
+        user:
+            tab: Repository
+            label: User
+            span: right
+            trigger:
+                action: show
+                field: private
+                condition: checked
+        password:
+            tab: Repository
+            label: Password
+            type: password
+            span: right
+            trigger:
+                action: show
+                field: private
+                condition: checked

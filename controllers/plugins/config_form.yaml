@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Plugin
+
+# Model Form Field configuration
+form: $/awebsome/privateplugins/models/plugin/fields.yaml
+
+# Model Class name
+modelClass: Awebsome\PrivatePlugins\Models\Plugin
+
+# Default redirect location
+defaultRedirect: awebsome/privateplugins/plugins
+
+# Create page
+create:
+    title: Create Plugin
+    redirect: awebsome/privateplugins/plugins/update/:id
+    redirectClose: awebsome/privateplugins/plugins
+
+# Update page
+update:
+    title: Edit Plugin
+    redirect: awebsome/privateplugins/plugins
+    redirectClose: awebsome/privateplugins/plugins
+
+# Preview page
+preview:
+    title: Preview Plugin
