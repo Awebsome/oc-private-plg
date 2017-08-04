@@ -33,7 +33,7 @@ class Plugin extends PluginBase
               'icon'        => 'icon-puzzle-piece',
               'url'         => Backend::url('awebsome/privateplugins/plugins'),
               'order'       => 100,
-              'permissions' => [ 'awebsome.privateplugins.plugins' ],
+              'permissions' => [ 'awebsome.privateplugins.manage_plugins' ],
               'keywords'    => 'Update Private Plugins'
           ],
       ];
